@@ -101,4 +101,11 @@ ALTER TABLE usuarios
 ALTER TABLE usuarios
     ADD CONSTRAINT unique_email UNIQUE (email);
 
-
+/*
+ Resposta do exercicio do slide 29
+ */
+CREATE TABLE produtos (
+    cod_prod INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome TEXT NOT NULL,
+    preco DECIMAL(10, 2) NOT NULL
+);
