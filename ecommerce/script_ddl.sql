@@ -1,11 +1,11 @@
-DROP DATABASE IF EXISTS ecommerce;
-
 DROP TABLE IF EXISTS pedido_produtos;
 DROP TABLE IF EXISTS pedidos;
 DROP TABLE IF EXISTS produtos;
 DROP TABLE IF EXISTS detalhe_usuario;
 DROP TABLE IF EXISTS usuarios;
 DROP TABLE IF EXISTS estado;
+
+DROP DATABASE IF EXISTS ecommerce;
 
 CREATE DATABASE ecommerce;
 
@@ -35,6 +35,7 @@ CREATE TABLE detalhe_usuario (
     id_estado INT NOT NULL,
     cep VARCHAR(8) NOT NULL,
     telefone VARCHAR(20) NOT NULL,
+    CONSTRAINT uq_id_usuario UNIQUE (id_usuario),
     CONSTRAINT check_cep_formato  CHECK (cep REGEXP '^[0-9]{8}$'),
     CONSTRAINT check_telefone_formato CHECK (telefone REGEXP '^[0-9]{2} [0-9]{5}-[0-9]{4}$'),
     CONSTRAINT fk_detalhe_usuario_usuarios FOREIGN KEY (id_usuario) REFERENCES usuarios(id_usuario),
