@@ -27,3 +27,6 @@ Este repositório contém materiais e recursos para uma aula completa sobre banc
 ```bash
 docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=123456 -p 3306:3306 -d mysql:latest
 ```
+---
+
+Thomás da Costa - [https://thomasdacosta.com.br](https://thomasdacosta.com.br)
