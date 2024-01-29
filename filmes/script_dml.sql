@@ -1,3 +1,5 @@
+USE bd_filmes;
+
 DELETE FROM filmes_genero;
 
 DELETE FROM generos;
