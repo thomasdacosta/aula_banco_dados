@@ -29,6 +29,12 @@ A aula abrange desde conceitos básicos até tópicos mais avançados relacionad
 ### Step by Step – Implantando um banco de dados MySQL com AWS RDS
 - https://thomasdacosta.com.br/2023/09/09/step-by-step-implantando-um-banco-de-dado-mysql-com-aws-rds/
 
+### Step by Step: Criando um banco de dados através de um diagrama DER no MySQL
+
+- https://thomasdacosta.com.br/2024/05/12/step-by-step-criando-um-banco-de-dados-atraves-de-um-diagrama-der-no-mysql/
+
+---
+
 ## Comando Docker para iniciar o MySQL
 
 ```bash
