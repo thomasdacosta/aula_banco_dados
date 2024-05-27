@@ -24,6 +24,11 @@ A aula abrange desde conceitos básicos até tópicos mais avançados relacionad
 - Aula 15 - LAB - Modelo Físico - Usando os comandos DDL e DML com MySQL
 - Aula 16 - LAB - Modelo Físico - Usando os comandos DDL e DML com AWS RDS e AWS Cloud9
 
+## Tutoriais
+
+### Step by Step – Implantando um banco de dados MySQL com AWS RDS
+- https://thomasdacosta.com.br/2023/09/09/step-by-step-implantando-um-banco-de-dado-mysql-com-aws-rds/
+
 ## Comando Docker para iniciar o MySQL
 
 ```bash
